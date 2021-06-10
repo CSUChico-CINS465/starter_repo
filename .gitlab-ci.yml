@@ -44,7 +44,7 @@ test:
 #Create latest docker container if all the tests/lint passes on master
 deploy:
   only:
-    - master
+    - main
   stage: deploy
   script:
     - docker info
